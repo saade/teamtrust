@@ -2,9 +2,9 @@
 
 namespace Saade\Teamtrust;
 
+use Saade\Teamtrust\Commands\TeamtrustCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Saade\Teamtrust\Commands\TeamtrustCommand;
 
 class TeamtrustServiceProvider extends PackageServiceProvider
 {
